@@ -15,4 +15,5 @@
 |              |       | AT L∞ (ρa = 4/255) | 38.68  | 27.53   | 34.01       |
 |              |       | AT L∞(ρa=8/255)    | 40.08  | 32.17   | 36.48       |
 |              |       | AT L2 (ρa = 0.75)  | 20.58  | 15.82   | 17.35       |
+
 Table 4: Test accuracy (%) of ResNet-18 with CUDA and unbounded KBS(0) and bounded KBS(4/255) under various training settings.
