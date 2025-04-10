@@ -18,3 +18,14 @@
 
 
 Table 4: Test accuracy (%) of ResNet-18 with CUDA, unbounded KBS(0), bounded KBS(4/255), bounded KBS(8/255) under various training settings.
+
+
+| **JPEG Strength** | **Unbounded (%)** | **8/255 Bounded (%)** |
+|-------------------|-------------------|------------------------|
+| JPEG-90           | 70.68             | 74.02                  |
+| JPEG-70           | 62.91             | 66.42                  |
+| JPEG-50           | 46.43             | 50.37                  |
+| JPEG-30           | 31.49             | 35.68                  |
+| JPEG-10           | 16.15             | 19.83                  |
+
+Table: Response to reviewer LBCg's supplemental experiment "the comparison under the same perturbation $L_\infty$ bound 8/255".
